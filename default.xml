@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
 <remote name="aosp"
-fetch=".." />
+fetch="https://android.googlesource.com"
+review="android-review.googlesource.com" />
+
+<remote name="github"
+fetch=".."
+review="jalaria" />
+
 <default revision="refs/tags/android-5.0.2_r1"
 remote="aosp"
 sync-j="4" />
+
 <project path="build" name="platform/build" groups="pdk,tradefed" >
+
 <copyfile src="core/root.mk" dest="Makefile" />
+
 </project>
 <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
 <project path="art" name="platform/art" groups="pdk" />

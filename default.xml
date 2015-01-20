@@ -2,7 +2,7 @@
 <manifest>
 
 <remote name="aosp"
-fetch="https://android.googlesource.com" />
+fetch="https://github.com/android" />
 
 <remote name="github"
 fetch="https://github.com"
@@ -512,4 +512,6 @@ sync-j="4" />
 <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
 <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
+
+<project path="packages/apps/Phone" name="CyanogenMod/android_packages_apps_ThemeChooser" remote="github"/>
 </manifest>

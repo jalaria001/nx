@@ -514,5 +514,5 @@ sync-j="16" />
 <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
- <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" remote="github"/>
+ <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" remote="github" revision="cm12"/>
 </manifest>
